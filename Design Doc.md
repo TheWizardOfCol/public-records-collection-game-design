@@ -189,7 +189,10 @@ answer survey questions, and those answers are added to the database.
 
 **Content needed.** Survey questions + aggregate data. *Ready:* a few questions.
 
-### 6.5 Cin-A-Mouse
+### 6.5 Cryptid Cinema
+
+*(Also known as Cin-A-Mouse. Moved up to be the second game built — see the
+roadmap in §8.)*
 
 **Pitch.** The mice have taken over an old movie studio; help them make a
 masterpiece out of a dusty old film.
@@ -198,8 +201,9 @@ masterpiece out of a dusty old film.
 choosing **sound effects** and **existing dialog**, picking **music**,
 **recording their own dialog**, and **writing subtitles**.
 
-**Content needed.** Public-domain film clips + audio. *Ready:* nothing yet —
-designed from scratch, built last.
+**Content needed.** Public-domain film clips + audio. *Ready:* film clips, music,
+sound effects and a round-by-round episode breakdown have been supplied by the
+producer (staged outside the code repo).
 
 ## 7. Visual identity
 
@@ -208,10 +212,10 @@ faded paper, pre-1930s palette — and each game layers its **own** identity on
 top:
 
 - **Get Lit:** library / reading-room warmth; book plates.
+- **Cryptid Cinema:** film strip, sprocket holes, studio marquee.
 - **Sticker Doodle:** sticky, playful, sticker-sheet energy.
 - **Present Time!:** gift-wrap and ribbon; department-store catalog.
 - **Average Joe:** survey forms, clipboards, chart paper.
-- **Cin-A-Mouse:** film strip, sprocket holes, studio marquee.
 
 ## 8. Roadmap
 
@@ -222,17 +226,18 @@ considered done.
   and player shells, settings, content pipeline, themes. A throwaway
   connect-and-ready game proves host + browsers round-trip.
 - **Phase 2 — Get Lit.** First full game, end to end.
-- **Phase 2b — Sticker Doodle.**
-- **Phase 3 — Present Time!** (needs gift art).
-- **Phase 4 — Average Joe** (needs survey subsystem + seed data).
-- **Phase 5 — Cin-A-Mouse** (media/voice; designed then).
-- **Phase 6 — polish, packaging, family-friendly pass, release.**
+- **Phase 3 — Cryptid Cinema** (formerly Cin-A-Mouse). Moved up ahead of Sticker
+  Doodle at the producer's request; media/voice game.
+- **Phase 4 — Sticker Doodle.**
+- **Phase 5 — Present Time!** (needs gift art).
+- **Phase 6 — Average Joe** (needs survey subsystem + seed data).
+- **Phase 7 — polish, packaging, family-friendly pass, release.**
 
 ## 9. Open questions
 
 - Sticker Doodle: exact scoring for "drawing well."
 - Present Time!: how many Stores ship at launch; gift art source/style.
 - Average Joe: which questions ship as seed data.
-- Cin-A-Mouse: full mechanic design.
+- Cryptid Cinema: full mechanic design.
 - Distribution: native host builds for Windows/macOS/Linux; ownership/licensing
   model (SKUs/receipts) deferred past v1.
